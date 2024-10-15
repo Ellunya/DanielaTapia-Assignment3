@@ -3,13 +3,11 @@ body {
   font-size: 15px;
   color: #787878;
 }
-
-img {
+body img {
   max-width: 100%;
   height: auto;
 }
-
-p {
+body p {
   margin-bottom: 25px;
   line-height: 1.6em;
 }
