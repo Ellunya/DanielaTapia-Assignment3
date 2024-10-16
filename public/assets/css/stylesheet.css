@@ -162,12 +162,12 @@ footer a:hover {
   header nav ul {
     display: flex;
   }
-  header nav li {
+  header nav ul li {
     margin: 0 15px;
     position: relative;
     line-height: 24px;
   }
-  header nav a {
+  header nav ul li a {
     font-family: "Josefin Sans", sans-serif;
     color: #324360;
     letter-spacing: 1px;
@@ -175,7 +175,7 @@ footer a:hover {
     font-size: 12px;
     font-weight: 900;
   }
-  header nav a:hover {
+  header nav ul li a:hover {
     color: #35c4ce;
   }
   header nav li.menu-item-has-children > a::after {
