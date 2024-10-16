@@ -87,15 +87,23 @@ article {
   flex-wrap: wrap;
 }
 article .image-part {
-  flex: 1;
-  overflow: hidden;
   margin-bottom: 10px;
 }
-article .image-part img {
-  transition: transform 3.5s ease-in-out;
+article .post-title {
+  margin-top: 0;
 }
-article .image-part img:hover {
-  transform: scale(1.5);
+article .post-title a {
+  color: #324360;
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: 900;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.3em;
+  transition: all 0.3s ease;
+}
+article .post-title a:hover {
+  color: #35c4ce;
 }
 
 /* footer */
@@ -105,12 +113,10 @@ footer {
   background: #eaf2ff;
   color: #989898;
 }
-
-#footer a {
+footer a {
   color: #989898;
 }
-
-#footer a:hover {
+footer a:hover {
   color: #111111;
 }
 
