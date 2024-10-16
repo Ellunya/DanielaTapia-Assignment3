@@ -70,12 +70,10 @@ h6 {
 header {
   font-family: "Josefin Sans", sans-serif;
 }
-
 header nav ul {
   display: none;
 }
-
-.top-logo {
+header .top-logo {
   width: 200px;
   margin: 20px auto 40px;
 }
