@@ -188,7 +188,7 @@ footer {
         border-bottom: 2px solid #324360;
     }
     /* sub nav */
-    header nav ul ul { /*
+     /*
         visibility: hidden;
         opacity: 0;
         display: block;
@@ -256,4 +256,4 @@ footer {
         display: inline;
         font-size: 11px;
     }
-}
+}//
