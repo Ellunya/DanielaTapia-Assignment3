@@ -225,18 +225,18 @@ footer a:hover {
   article {
     display: flex;
   }
-  .image-part {
+  article .image-part {
     flex: 1;
     overflow: hidden;
     margin-bottom: 0;
   }
-  .image-part img {
+  article .image-part img {
     transition: transform 3.5s ease-in-out;
   }
-  .image-part img:hover {
+  article .image-part img:hover {
     transform: scale(1.5, 1.5);
   }
-  .content-part {
+  article .content-part {
     flex: 1;
     padding-left: 50px;
   }
