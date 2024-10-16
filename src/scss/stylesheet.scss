@@ -1,8 +1,15 @@
+// colour section//
 $fcolor: #989898; //FOOTER colour grey ++++VARIABLE 1+++//
 $hblack: #111111; // black text/hover colour +++VARIABLE 2++//
 $hblue: #35c4ce; // blue text/hover colour +++VARIABLE 3+++//
 $ffjose: 'Josefin Sans', sans-serif; // font family change 4 header +++VARIABLE 4++++//
 $lgreybg: #f0f0f0; // light gray header background +++++VARIABLE 5++++//
+
+// padding - padding sizes //
+$psmall: 30px 0;  //+++VARIABLE 6+++//
+$pmed: 20px 0;   //+++VARIABLE 7+++//
+$plarge: 50px;  //+++VARIABLE 8+++//
+
 
 body {  //NESTING 1//
     font-family: Quando;
