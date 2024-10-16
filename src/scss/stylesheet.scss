@@ -2,6 +2,7 @@ $fcolor: #989898; //FOOTER colour grey ++++VARIABLE 1+++//
 $hblack: #111111; // black text/hover colour +++VARIABLE 2++//
 $hblue: #35c4ce; // blue text/hover colour +++VARIABLE 3+++//
 $ffjose: 'Josefin Sans', sans-serif; // font family change 4 header +++VARIABLE 4++++//
+$lgreybg: #f0f0f0; // light gray header background +++++VARIABLE 5++++//
 
 body {  //NESTING 1//
     font-family: Quando;
@@ -219,7 +220,7 @@ footer {  // NESTING 4 //
                     position: absolute;
                     z-index: 9999;
                     left: 0;
-                    background: #f0f0f0;
+                    background: $lgreybg;
                     transition: all 0.2s ease-out;
     
                     li {
