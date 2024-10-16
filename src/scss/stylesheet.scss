@@ -1,6 +1,7 @@
 // colour section//
 $fcolor: #989898; //FOOTER colour grey ++++VARIABLE 1+++//
 $lgreybg: #f0f0f0; // light gray header background +++++VARIABLE 5++++//
+$hbgwhite: #ffffff; // hover bgcolor white +++VARIABLE 15+++//
 
 // text colours //
 $hblack: #111111; // black text/hover colour +++VARIABLE 2++//
@@ -25,9 +26,9 @@ $fmedium: 400;  //++++VARIABLE 10+++///
 $flarge: 900;   //++++ VARIABLE 11+++//
 
 // transitions //
-
-$tfast: 0.2s;
-
+$tfast: 0.2s; //+++VARIABLE 16+++//
+$tmed: 0.35s;  //+++VARIABLE 17+++//
+$tslow: 3.5s;  //++VARIABLE 18++//
 
 
 body {  //NESTING 1//
@@ -49,7 +50,7 @@ a { //NESTING 2//
     font-weight: $fmedium;
     text-decoration: none;
     color: #111111;
-    transition: 0.20s;
+    transition: $tfast;
 
     &:hover {
         color: #999999;
@@ -247,7 +248,7 @@ footer {  // NESTING 4 //
                     z-index: 9999;
                     left: 0;
                     background: $lgreybg;
-                    transition: all 0.2s ease-out;
+                    transition: all $tfast ease-out;
     
                     li {
                         border-top: 1px solid #e9e9e9;
@@ -261,7 +262,7 @@ footer {  // NESTING 4 //
                             padding: 20px 10px;
                             line-height: 1.4em;
                             letter-spacing: 1px;
-                            transition: .35s;
+                            transition: $tmed;
     
                             &:hover {
                                 background: #ffffff;
@@ -293,7 +294,7 @@ article { // NESTING 8//
         margin-bottom: 0;
 
         img {
-            transition: transform 3.5s ease-in-out;
+            transition: transform $tslow ease-in-out;
 
             &:hover {
                 transform: scale(1.5, 1.5);
