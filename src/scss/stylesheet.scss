@@ -49,7 +49,7 @@ $tslow: 3.5s;  //++VARIABLE 18++//
 
 
 body {  //NESTING 1//
-    font-family: $ffquando;
+    font-family: $ffquando; // is it supposed to not have any ' ' ??//
     font-size: 15px;
     color: #787878;
 
