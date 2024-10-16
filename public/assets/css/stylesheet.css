@@ -240,7 +240,7 @@ footer a:hover {
     transition: transform 3.5s ease-in-out;
   }
   article .image-part img:hover {
-    transform: scale(1.5, 1.5);
+    transform: scale(1.5);
   }
   article .content-part {
     flex: 1;

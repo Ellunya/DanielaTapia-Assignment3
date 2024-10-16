@@ -39,6 +39,13 @@ $tslow: 3.5s;  //++VARIABLE 18++//
     align-items: center;
 }
 
+@mixin image-hover-scale($scale: 1.5) {  // make the image hover 1 line ++MIXIN 2+++//
+    transition: transform $tslow ease-in-out;
+    &:hover {
+        transform: scale($scale);
+    }
+}
+
 
 body {  //NESTING 1//
     font-family: $ffquando;
@@ -292,28 +299,25 @@ footer {  // NESTING 4 //
 
 
     /* posts */
-article { // NESTING 8//
-    display: flex;
+    article { // NESTING 8//
+        display: flex;
 
-    .image-part {
-        flex: 1;
-        overflow: hidden;
-        margin-bottom: 0;
+        .image-part {
+            
+            flex: 1;
+            overflow: hidden;
+            margin-bottom: 0;
 
-        img {
-            transition: transform $tslow ease-in-out;
-
-            &:hover {
-                transform: scale(1.5, 1.5);
+            img {
+        @include image-hover-scale();
             }
         }
-    }
 
-    .content-part {
-        flex: 1;
-        padding-left: $plarge;
+        .content-part {
+            flex: 1;
+            padding-left: $plarge;
+        }
     }
-}
 
 
 
